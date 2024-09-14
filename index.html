@@ -7,11 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Renterio</title>
+    <title>Renterio<i class="fa-solid fa-bars"></i></title>
 </head>
 <body>
     <header class="max-w-7xl mx-auto">
-        <nav class="flex items-center justify-between p-4 bg-white">
+        <nav class="flex items-center justify-between p-4 bg-white border-2">
             <div class="flex items-center">
                 <div class="rounded-full bg-lime-400 p-2">
                     <i class="fa-solid fa-square-arrow-up-right"></i>
@@ -25,7 +25,7 @@
             <a href="" class="text-gray-700 hover:text-black">Blogs</a>
             <a href="" class="text-gray-700 hover:text-black">Contact us</a>
            </div>
-           <div class="hidden md:flex items-center space-x-4 rounded-full">
+           <div class="hidden md:flex items-center space-x-4 rounded-full border-2">
             <button class="p-2 bg-gray-200 rounded-full">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
@@ -46,6 +46,52 @@
     </header>
 
     <main>
+        <section class=" flex flex-col items-center text-center max-w-7xl mx-auto border-2 mb-12">
+            <img src="./assets/banner.png" alt="">
+            <h1 class="text-4xl font-extrabold mb-4">A barn house of this design has a striking appearance</h1>
+            <p class="text-gray-700 mb-8 max-w-lg">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <a href="" class="bg-lime-400 text-black py-3 px-6 rounded-full flex items-center">
+                <span>View Details<i class="fa-solid fa-square-arrow-up-right ml-2"></i></span>
+            </a>
+        </section>
+
+       <section class="bg-[#f4f4f4] p-12">
+        <div class="flex flex-col md:flex-row justify-between max-w-7xl mx-auto space-y-8 md:space-y-0 md:space-x-0 gap-8 mt-24 ">
+            <div class="space-y-4">
+                <a href="" class="rounded-full py-0 px-6 inline-flex items-center text-gray-700 bg-gray-200">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <span class="ml-2">About Us</span>
+                </a>
+                <h1 class="text-4xl font-bold">We design thoughtful, liveable spaces</h1>
+                <p class="text-gray-600">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center rounded-lg bg-red-300 space-x-4 shadow-lg p-4">
+                            <i class="fa-solid fa-landmark-flag"></i>
+                            <div>
+                                <h2 class="text-xl font bold">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center rounded-lg bg-red-300 space-x-4 shadow-lg p-4">
+                            <i class="fa-solid fa-landmark-flag"></i>
+                            <div>
+                                <h2 class="text-xl font bold">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="w-full md:w-1/2 h-full">
+                <img src="./assets/Rectangle.png" alt="" class="shadow-lg rounded-lg w-full">
+            </div>
+        </div>
+       </section>
 
     </main>
 
